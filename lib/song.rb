@@ -1,3 +1,4 @@
+require 'pry'
 class Song 
   
   
@@ -13,6 +14,7 @@ class Song
     @genre = genre 
     
     @@count += 1 
+    binding.pry
     @@genres << self 
     @@artists << self
     
