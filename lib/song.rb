@@ -1,4 +1,3 @@
-require 'relative'
 class Song 
   
   
@@ -30,6 +29,10 @@ class Song
   end 
   
   def self.genre_count 
-     genre_count
+     
+  end
+  
+  def self.artist_count
+    
   end
 end
