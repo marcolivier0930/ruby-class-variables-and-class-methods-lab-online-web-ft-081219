@@ -1,5 +1,5 @@
 require "spec_helper"
-
+require 'relative'
 describe "Song" do
 
   let!(:lucifer) { Song.new("Lucifer", "Jay-Z", "rap" ) }
