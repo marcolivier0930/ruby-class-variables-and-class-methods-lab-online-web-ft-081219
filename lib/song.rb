@@ -1,4 +1,4 @@
-# require 'pry'
+ require 'pry'
 class Song 
   
   
@@ -31,7 +31,10 @@ class Song
   end 
   
   def self.genre_count 
-     
+     genre_count = { }
+     @@genres.each do |g|
+       binding.pry 
+     end
   end
   
   def self.artist_count
