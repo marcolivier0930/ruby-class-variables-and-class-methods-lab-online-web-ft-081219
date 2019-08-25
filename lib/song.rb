@@ -15,8 +15,8 @@ class Song
     
     @@count += 1 
     binding.pry
-    @@genres << self 
-    @@artists << self
+    @@genres << genre
+    @@artists << artist
     
   end
   
